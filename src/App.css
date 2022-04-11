@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  flex-direction: COLUMN;
+  padding: 20px;
+ 
+
+}
+.row {
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 20px;
+  width: auto;
+  height: auto;
+
+}
+.navbar {
+  background-color: black;
+  text-align: left;
+  
+}
+
+.card{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+
+}
+.set {margin-left: -3cm;
+padding-top: 25px;
+text-align: left;
+
+}
+.image {
+  height: 28vh;
+  padding-top: 20px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.padding20{
+
+}
+.judul {
+  text-align: left;
+  
+
+}
+.profil {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  
+  
+  
+
+
+}
+.jud {
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+.nama{
+  text-align: left;
+}
+
+.image2 {
+  height: 60px;
+  width: 60px;
+  
+}
+.image3 {
+  height: 100px;
+  width: 100px;
+ border-radius: 50%;
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
